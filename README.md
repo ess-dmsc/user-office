@@ -11,7 +11,7 @@ You will need to manually reload if you make edits.<br>
 
 ### `npm run test`
 
-Launches the Jest test runner and prints the coverage report when done with tests.<br>
+Launches the Jest test runner and prints the coverage report when done with tests! <br>
 
 ### `npm run tsc`
 
