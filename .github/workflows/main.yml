@@ -22,7 +22,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2-beta
-    # Runs a single command using the runners shell
-    - name: Run backend test
-      run: npm run test
+    - run: npm ci
+    - run: npm run test
 
